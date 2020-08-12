@@ -32,6 +32,7 @@ defaults write com.apple.terminal "Startup Window Settings" "bmw"
 defaults write com.apple.dock static-only -bool true
 defaults write com.apple.dock autohide -int 1
 defaults write com.apple.dock autohide-time-modifier -int 0
+defaults write com.apple.dock show-recents -int 0
 killall Dock
 
 # finder plist
