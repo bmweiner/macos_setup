@@ -24,6 +24,8 @@ Settings to apply manually
 **VS Code**
 Open the Command Palette (Ctrl+Shift+P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
 
+**Finder**
+`Sidebar` and `view options` can be set manually.
 
 ## Notes
  * Root Filesystem: [https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03s02.html](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03s02.html)
