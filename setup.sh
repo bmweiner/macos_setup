@@ -40,5 +40,9 @@ defaults write com.apple.finder SidebarTagsSctionDisclosedState -int 0
 defaults write com.apple.finder SidebariCloudDriveSectionDisclosedState -int 0
 killall Finder
 
+# keyboard
+# use keyboard navigation to move focus between controls
+defaults write .GlobalPreferences.plist "AppleKeyboardUIMode" "2"
+
 # return to current working directory
 cd $cwd
