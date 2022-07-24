@@ -1,14 +1,13 @@
 # get to current working directory
 cwd=$(pwd)
 
+# install command line tools
+sudo xcode-select --install
+
 # setup user specific applications
 mkdir ~/local
 mkdir ~/local/bin  # command binaries
 mkdir ~/local/lib  # applications
-
-# install oh-my-zsh
-cd ~/local
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install dotfiles
 cd ~/local/lib
@@ -43,6 +42,18 @@ killall Finder
 # keyboard
 # use keyboard navigation to move focus between controls
 defaults write .GlobalPreferences.plist "AppleKeyboardUIMode" "2"
+
+# install oh-my-zsh
+cd ~/local
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install formula/casks
+brew install imagemagick
+brew install pandoc
+brew install --cask miniforge
 
 # return to current working directory
 cd $cwd
