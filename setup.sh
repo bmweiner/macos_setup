@@ -51,9 +51,15 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install formula/casks
+brew install python
 brew install imagemagick
 brew install pandoc
 brew install --cask miniforge
+brew install --cask docker
+
+# install python dependencies
+pip3 install --upgrade pip
+pip3 install jupyter pandas
 
 # return to current working directory
 cd $cwd
