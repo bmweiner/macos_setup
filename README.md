@@ -1,6 +1,9 @@
 # MacOS Setup
 My preferred configuration and applications for macOS.
 
+## Install Command Line Tools
+
+    sudo xcode-select --install
 
 ## Setup Script
 Execute to apply prefer settings.
