@@ -5,13 +5,11 @@ My preferred configuration and applications for macOS.
 
     sudo xcode-select --install
 
-## Setup Script
-Execute to apply prefer settings.
+## Run Script
 
-    sh -c "$(curl -s https://raw.githubusercontent.com/bmweiner/macos_setup/master/setup.sh)"
+    sh setup.sh
 
-
-## GUI Applications
+## Install GUI Applications
 Applications to download and install manually.
 
  * [Chrome](https://www.google.com/chrome/)
