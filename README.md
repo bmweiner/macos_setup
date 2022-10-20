@@ -1,13 +1,9 @@
 # MacOS Setup
 My preferred configuration and applications for macOS.
 
-## Install Command Line Tools
+## Run Setup Script
 
-    sudo xcode-select --install
-
-## Run Script
-
-    sh setup.sh
+    sh -c "$(curl -s https://raw.githubusercontent.com/bmweiner/macos_setup/master/setup.sh)"
 
 ## Install GUI Applications
 Applications to download and install manually.
@@ -16,8 +12,7 @@ Applications to download and install manually.
  * [VS Code](https://code.visualstudio.com/)
  * [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
  * [Spotify](https://www.spotify.com/us/download/mac/)
- * [Google Drive Backup and Sync](https://www.google.com/intl/en-GB_ALL/drive/download/backup-and-sync/)
-
+ * [Drive](https://www.google.com/drive/download/)
 
 ## Manual Settings
 Settings to apply manually
