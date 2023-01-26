@@ -56,8 +56,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew install python
 brew install imagemagick
 brew install pandoc
+brew install r
 brew install --cask miniforge
 brew install --cask docker
+brew install --cask mactex
 
 # install python dependencies
 pip3 install --upgrade pip
